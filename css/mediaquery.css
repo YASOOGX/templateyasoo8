@@ -1,0 +1,238 @@
+@media(min-width:1400px){
+
+}
+@media(max-width:1400px){
+
+}
+@media(max-width:1200px){
+
+}
+
+@media(max-width:992px){
+ /* fixed links in larg screen only  */
+ .fixed-link{
+display: none;
+}
+ /* end  fixed links in larg screen only  */
+   /* start links phone  */
+   .bar-links {
+    text-align: start;
+     font-size: 30px;
+     border: none;
+     color: var(--blue);
+    background-color: transparent;
+  }
+ .links {
+  /* display: none !important; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black ;
+}
+ .links li {
+   text-align: center;
+   width: 100% !important;
+   position: relative;
+  }
+  .links >li p {
+    font-size: 20px;
+    margin-bottom: 10px ;
+    padding: 5px ;
+  }
+.links> li p::before{
+  display: none;
+}
+.links li p:hover {
+  color: black !important;
+}
+.links-hide {
+  width: 100%;
+  height: 100%;
+  color: black;
+  position: relative;
+  right: 0;
+  top: 0;
+  text-align: center;
+  background-color: var(--blue);
+  color: white;
+  font-size: 15px;
+   /* display: none !important; */
+ }
+header .slide{
+  display: none;
+}
+.close{
+  z-index: 4;
+  position: absolute;
+  left: 10%;
+  top: 7%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+/* end part links phone  */
+
+/* -------------------------------------------------- */
+/* start part new  */
+.new::after{
+left: 0%;
+top: 47%;
+padding: 2px;
+height: 0%;
+width: 100%;
+}
+ .right{
+margin-bottom: 40px;
+
+}
+/* end part new  */
+/* start part reports  */
+.coment .send{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.coment .com{
+  margin: auto ;
+  margin-bottom: 30px;
+  }
+  /* end part reports  */
+
+}
+@media(max-width:768px){
+ /* start head top  */
+  .logo img{
+  width: 120% !important;
+}
+ /* end head top  */
+ /* ////////////////////////////// */
+/* start part landing  */
+.carousel-item p{
+  position: absolute;
+  text-align: center;
+  left:  25%;
+  top: 50%;
+  transform: translate(-20%,-50%);
+  font-size: 25px !important;
+   }
+   .first-p{
+    position: absolute;
+    text-align: center;
+    left:  50% !important;
+    top: 30% !important;
+   }
+.carousel-item .but{
+position: absolute;
+left: 50%;
+bottom: 0%;
+transform: translateX(-50%);
+}
+.carousel-item .but button{
+font-size: 15px;
+}
+/* end part landing  */
+/* part new  */
+.new::after{
+top: 51%;
+}
+/* end part new  */
+
+/* start part reports  */
+.report  .stars i{
+  font-size: 25px;
+  margin-left: 5px;
+}
+.report .border-rate .rate{
+  width: 80%;
+}
+  /* end part reports  */
+
+  footer .container h3{
+    font-size: 22px !important;
+  }
+  footer .container P{
+    font-size: 18px !important;
+    text-align: center !important;
+  }
+  .bt-send input{
+ margin: auto;
+    width: 80%;
+  }
+  /* end part footer  */
+}
+@media(max-width:375px){
+
+  /* links phone  */
+  .bar-links{
+    font-size: 14px;
+  }
+  .search-phone{
+  font-size: 10px !important;
+  padding-right: 10px;
+  padding-left: 20px;
+  }
+  .links{
+    margin-top: 20px;
+  }
+  .links >li p {
+    font-size: 15px;
+    margin-bottom: 10px ;
+    padding: 5px ;
+  }
+  /* end links phone  */
+  /* ***************************** */
+/* part new  */
+.new::after{
+  top: 40%;
+  }
+  /* end part new  */
+  /* start part slide  */
+  .img-slide .im-sl{
+    margin-left: 65px;
+}
+.img-slide p{
+    width: 80px;
+  }
+  /* end part slide  */
+  /* start part footer  */
+footer .container h3{
+  font-size: 22px !important;
+}
+footer .container P{
+  font-size: 18px !important;
+  text-align: center !important;
+}
+.bt-send input{
+  width: 100%;
+}
+footer .icon {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+footer .icon i{
+font-size: 25px;
+}
+/* end part footer  */
+/* start part end   */
+.end {
+    padding: 10px 0;
+    font-size: 12px; 
+  }
+
+.end .container img{
+width: 30px;
+margin-right: 10px;
+}
+/* end part end  */
+}
+@media(max-width:500px){
+  
+  /* part new  */
+  .new::after{
+    display: none !important;
+  }
+  /* end part new  */
+}
