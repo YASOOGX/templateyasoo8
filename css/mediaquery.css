@@ -59,8 +59,17 @@ display: none;
   font-size: 15px;
    /* display: none !important; */
  }
+/*  slide in wide screen only */
 header .slide{
   display: none;
+}
+ header .slide{
+  display: none;
+height: 0;
+padding: 0;
+}
+.slide-bottom-link{
+  display: none; 
 }
 .close{
   z-index: 4;
@@ -71,7 +80,7 @@ header .slide{
   font-weight: bolder;
   color: black;
 }
-
+/* end slide in wide screen only */
 /* end part links phone  */
 
 /* -------------------------------------------------- */
