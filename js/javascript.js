@@ -49,13 +49,14 @@ links.forEach((item,index)=>{
 // end part links hide 
 // //////////////////////////////
 // start part scrol head 
-window.onscroll=function(){
-    if(scrollY >= 100){
-    scrol.classList.add("fixed-link")
-    }
-    else{
-        scrol.classList.add("fixed-link-block")
-        scrol.classList.remove("fixed-link")
+if(screen.width>=992){
+    window.onscroll=function(){
+        if(scrollY >= 100){
+        scrol.classList.add("fixed-link")
+        }
+        else{
+            scrol.classList.remove("fixed-link")
+        }
     }
 }
 // end part scrol head 
